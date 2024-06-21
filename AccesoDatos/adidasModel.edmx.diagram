@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="77f3e29eb7b14a3480d6598f7fcba673" Name="Diagram1">
+        <EntityTypeShape EntityType="adidasModel.CarritoCompras" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.Categorias" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.ComentariosValoraciones" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.DetalleCarrito" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.Productos" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adidasModel.Usuarios" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="adidasModel.FK__CarritoCo__usuar__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__DetalleCa__carri__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__Categoria__padre__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__Productos__categ__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__Comentari__produ__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__Comentari__usuar__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="adidasModel.FK__DetalleCa__produ__4CA06362" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
